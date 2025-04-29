@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b242d; 
+    color:#fafafa;
+    font-family: 'Montserrant', sans-serif; 
+}
+header {
+    background-color: #14171C;
+    width: 100%;
+    top: 0;               
+    left: 0;
+    z-index: 1000;        
+    padding: 20px 0;
+    
+}
+.nav-bar{
+   
+    display: flex; 
+    gap: 250px;
+    padding-right: 50px; 
+    margin-top: 35px;
+    
+}
+
+.nav-bar a:hover{
+    color: #00E054; 
+}
+
+#logo {
+    width: 300px; 
+    height: auto; 
+}
+
+.hobbies{
+    padding-top:50px ;
+    display: flex;
+    gap: 20px;
+    padding-right: 65px;
+    padding-left: 65px;
+   
+    
+}
+
+.projetos{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    padding-right: 65px;
+    padding-left: 65px;
+
+    justify-content: center;
+    
+}
+
+#hobbie1{
+    width: 300px;
+}
+
+#hobbie2{
+    width: 300px;
+}
+@media(width <= 400px) { 
+    .nav-bar{
+        flex-direction: column; 
+    }
+
+    header{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+li{
+    list-style-type: none; 
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+}
+
+
+
+
+main{
+    margin-left: 30px; 
+    margin-right: 20px;
+}
+
+
+
+main h3{
+    padding-top: 50px;
+    padding-right: 65px;
+    padding-left: 65px;
+   
+    max-width: 600px;
+}
+
+main p{
+    font-size: 14px;
+    font-size: 14px; 
+    max-width: 600px; 
+    text-align: justify;
+    line-height: 1.6;  
+    padding-right: 65px;
+    padding-left: 65px;
+    
+}
+
+main p.projetos{
+    
+    margin-top: 10px;
+    text-align: justify;
+    max-width: 100%; 
+}
+
+footer {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 70px;
+}
+
+footer div{
+    padding: 20px; 
+}
+
+footer img{
+    width: 20px;
+    padding-left: 10px; 
+}
+
+footer a{
+    display: flex; 
+    align-items: center;
+}
+
+@media (width <= 420px) { 
+    footer{
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+.aspirante{
+    width: 150px;
+    top:  -520px;
+    height: 100px;
+}
+
+button {
+    background-color: #00E054;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-photo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profile-photo {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+   
+  }
+  
+  .profile-name {
+    font-size: 40px;
+    margin-left: 30px;
+  }
+  
+  .profile-stats {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .stat {
+    margin-right: 60px;
+    text-align: center;
+  }
+  
+  .stat-number {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .stat-label {
+    font-size: 12px;
+    font-weight:00;
+    color: #777;
+    margin-top: 4px;
+  }
+  
